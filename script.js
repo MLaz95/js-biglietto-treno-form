@@ -30,6 +30,7 @@ buttonElement.addEventListener('click',
             // print info on screen
             document.getElementById("ticket-info").innerHTML = `Seat XX, Carriage N`;
             document.getElementById("ticket-price").innerHTML = `Ticket Cost ${price.toFixed(2)}€.`;
+            document.querySelector("#qr_box").className += "d-block"
         }
     }
 )
